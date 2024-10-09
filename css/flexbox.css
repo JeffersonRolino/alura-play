@@ -22,8 +22,26 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-} 
+}
 
+
+/**********************************************************************
+  SEÇÃO SUPERIOR
+**********************************************************************/
+.superior__secao__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+
+/**********************************************************************
+  MEDIA QUERIES
+**********************************************************************/
 @media (min-width: 834px){
   /* CABEÇALHO */
   .cabecalho__pesquisar__item {

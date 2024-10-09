@@ -183,15 +183,12 @@ body {
 /* SECAO SUPERIOR */
 
 .superior__secao__container {
-    height: 63px;
+    /* height: 63px; */
     color: white;
     font-size: 16px;
     background-color: var(--azul-claro);
-    padding: 0 20px;
     position: fixed;
     top: 80px;
-    right: 0;
-    left: 0;
 }
 
 .superior__item {
@@ -276,7 +273,7 @@ body {
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
-        left: 82px;
+        /* left: 82px; */
     }
 
     /*ESTILOS SEÇÃO VÍDEOS */
