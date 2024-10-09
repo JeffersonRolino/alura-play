@@ -273,7 +273,7 @@ body {
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
-        /* left: 82px; */
+        left: 82px;
     }
 
     /*ESTILOS SEÇÃO VÍDEOS */
