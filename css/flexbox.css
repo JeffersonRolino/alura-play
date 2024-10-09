@@ -1,4 +1,8 @@
-
 .cabecalho__container {
   display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  position: fixed;
+  top: 0px;
 }
