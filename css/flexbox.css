@@ -1,3 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 80px;
+}
+
+main {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 /**********************************************************************
   CABEÇALHO
 **********************************************************************/
@@ -75,9 +93,17 @@
 /**********************************************************************
   VIDEOS
 **********************************************************************/
+.videos__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
 .videos__item {
   height: 303px;
   width: 280px;
+  flex-grow: 1;
 }
 
 /* DESCRIÇÃO VIDEOS */
